@@ -1,0 +1,149 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f9fb;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.site-header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header nav a {
+  margin: 0 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x500?text=Ocean+Breeze+Hotel') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text .btn {
+  background: #ffcc00;
+  color: #004080;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.hero-text .btn:hover {
+  background: #ffaa00;
+}
+
+/* Features */
+.features {
+  padding: 50px 20px;
+  background: white;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature {
+  background: #e0f0ff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+/* Rooms */
+.rooms {
+  padding: 50px 20px;
+  background: #f0f8ff;
+  text-align: center;
+}
+
+.room-card {
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Booking */
+.booking {
+  padding: 50px 20px;
+  background: white;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.booking-form input {
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: #0066cc;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
